@@ -53,7 +53,7 @@ namespace SubSonic.Extensions
             AddSingularRule("s$", String.Empty);
             AddSingularRule("ss$", "ss");
             AddSingularRule("(n)ews$", "$1ews");
-            AddSingularRule("([ti])a$", "$1um");
+            //AddSingularRule("([ti])a$", "$1um");
             AddSingularRule("((a)naly|(b)a|(d)iagno|(p)arenthe|(p)rogno|(s)ynop|(t)he)ses$", "$1$2sis");
             AddSingularRule("(^analy)ses$", "$1sis");
             AddSingularRule("([^f])ves$", "$1fe");
